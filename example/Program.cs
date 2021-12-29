@@ -16,6 +16,15 @@ namespace example
                 Console.Write("Введите число> ");
                 array[i] = int.Parse(Console.ReadLine());
         }
+        
+ 
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] % 2 == 0)
+                    Console.Write($"{array[i]} ");
+            }
+ 
+            Console.ReadKey();
+        }
     }
-}
 }
