@@ -6,7 +6,10 @@ namespace example
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Введите длину массива> ");
+ 
+            int arrayLength = int.Parse(Console.ReadLine());
+            int[] array = new int[arrayLength];
         }
     }
 }
