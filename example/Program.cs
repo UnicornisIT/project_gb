@@ -10,6 +10,12 @@ namespace example
  
             int arrayLength = int.Parse(Console.ReadLine());
             int[] array = new int[arrayLength];
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write("Введите число> ");
+                array[i] = int.Parse(Console.ReadLine());
         }
     }
+}
 }
